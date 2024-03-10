@@ -1,0 +1,206 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+button {
+    font-size: 18px;
+}
+
+
+/* Estilos del Header */
+
+.header{
+    display: flex;
+    background-color: #131925;
+    justify-content: center;
+    
+}
+
+.header-container{
+width: 1375px;
+display: flex;
+justify-content: space-between;
+background-color: #131925;
+padding: 10px;
+align-items: center;
+}
+
+.header .links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo img{
+    width: 250px;
+}
+
+.links{
+    display: flex;
+}
+
+/* Estilos del Hero o slider */
+
+.hero{
+    background-color: #131925;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 1375px;
+}
+
+.hero-info h1{
+    font-size: 64px;
+    line-height: 64px;
+    padding-bottom: 10px;
+
+}
+
+.hero-info p{
+    color: #e5e7eb;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.hero button{
+    color: white;
+    background-color: #3b82f6;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero-container img{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Estilos de la seccion de info */
+
+.info-section{
+background-color: white;
+padding: 170px 75px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.info-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.container-info{
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+}
+
+.container-info img{
+    width: 225px;
+    border-radius: 15px;
+}
+
+.container-info P{
+    padding-top: 15px;
+}
+
+.info{
+    width: 225px;
+    text-align: center;
+}
+
+/* Estilos de la seccion de quote */
+.quote{
+    background-color: #e5e7eb;
+    padding: 135px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+ h6 {
+    font-size: 24px;
+    font-weight: 800;
+    
+}
+
+.quote-container{
+    width: 1200px;
+}
+
+.quote .author{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* Estilos de la seccion Call to action */
+
+.call-to-action{
+display: flex;
+justify-content: center;
+align-content: center;
+padding: 120px 0px;
+
+}
+
+.cta-container{
+    display: flex;
+    background-color: #3b82f6;
+    color: white;
+    width: 1375px;
+    justify-content: space-between;
+    align-content: center;
+    padding: 80px 160px;
+    border-radius: 20px;
+    align-items: center;
+
+}
+
+.cta-right button{
+color: white;
+background-color: #3b82f6;
+border-color: white;
+padding: 10px 50px;
+border-radius: 5px;
+}
+
+h5{
+    font-size: 36px;
+}
+
+/* Estilos de la seccion Footer */
+
+.footer{
+    background-color: #131925;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
