@@ -51,23 +51,9 @@ a{
 
 /* Estilos del Hero o slider */
 
-@keyframes animated-background {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .hero{
-    background: linear-gradient(70deg, #070a11, #131925, #1f2937);
-    background-size: 300%;
+    background: linear-gradient(90deg,  #131925, #1f2937);
+    background-size: 100%;
     background-color: #131925;
     display: flex;
     justify-content: center;
